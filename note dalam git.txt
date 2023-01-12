@@ -27,3 +27,5 @@ untuk mengupload yang baru di buat		git push -u origin master (-u=upstream agar 
 mengecek commit remote sudah sampai mana	git fecth
 mengampil file/merge conflict di remote		git pull
 merge dari local ke remote punya orang (sync)	git merge <remote>/<brance>
+membuat blacklist di git			file .gitignore (lalu tuliskan nama file blacklist)(semisal semua file exe mau diblacklist <*.exe> maka semua file .exe akan diblacklist)
+folder dalam git				<nama-folder>/
