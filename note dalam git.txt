@@ -26,3 +26,4 @@ mengupload dari local ke github			git remote add origin <url-github-kalian> (ori
 untuk mengupload yang baru di buat		git push -u origin master (-u=upstream agar nanti tinggal push doang)
 mengecek commit remote sudah sampai mana	git fecth
 mengampil file/merge conflict di remote		git pull
+merge dari local ke remote punya orang (sync)	git merge <remote>/<brance>
