@@ -1,0 +1,28 @@
+menghapus master branch 			rm -rf .git
+membuat mengubah folder menjadi repo 		git init
+melihat status 					git status
+menambah file dalam folder			git add <nama-file> / git add . (untuk semua file)
+menyimpan perubahan 				git commit -m "pesan"
+melihat derektori				pwd (print working directory)
+melihat list branch				git branch
+menambahkan branch				git branch <nama-branch>
+menyimpan perubahan lebih singkat		git commit -a -m "pesan"
+melihat history					git log
+melihat history kayak github			git log --all --decorate --oneline --graph
+membuat alias (kayak variabel maybe)		alias <nama>="<command-gitnya>"
+berpindah branch				git checkout <nama-branch>
+menggabungkan branch (merge)			git merge <nama-branch> (tapi kita harus di master-branch)
+menghapus branch yang (sudah di merge)		git branch -d <nama-branch>
+melihat branch yang sudah di merge		git branch --merged
+menghapus branch (tanpa merge)			git branch -D <nama-branch>
+berpindah branch ke commit			git checkout <xxxxxxx> (7 digit awal commit)
+clone repo remote ke local			git clone <contoh: https di tutor>
+melihat nama remote				git remote
+melihat remote lebih detail/alamatnya		git remote -v (verbosse)
+mengirimkan perubahan dari local		git push
+membuat folder dari git bash			mkdir <nama-folder> (mkdir=make directory)
+melihat isi folder				ls
+mengupload dari local ke github			git remote add origin <url-github-kalian> (origin itu nama remote default. bisa diganti)
+untuk mengupload yang baru di buat		git push -u origin master (-u=upstream agar nanti tinggal push doang)
+mengecek commit remote sudah sampai mana	git fecth
+mengampil file/merge conflict di remote		git pull
