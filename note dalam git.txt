@@ -7,7 +7,7 @@ melihat derektori				pwd (print working directory)
 melihat list branch				git branch
 menambahkan branch				git branch <nama-branch>
 menyimpan perubahan lebih singkat		git commit -a -m "pesan"
-mengembalikan file yang hilang    git checkout <5digit> -- <nama-file>
+mengembalikan file yang hilang                  git checkout <5digit> -- <nama-file>
 melihat history					git log
 melihat history kayak github			git log --all --decorate --oneline --graph
 membuat alias (kayak variabel maybe)		alias <nama>="<command-gitnya>"
